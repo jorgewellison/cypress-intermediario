@@ -8,7 +8,7 @@ const options = {
     }
 }
 
-describe('Create Project', () => {
+describe('Create Project', options, () => {
     beforeEach(() => {
         cy.api_deleteProjects()
         cy.login()
